@@ -2,7 +2,7 @@
 
 How make Subscription on Cloudflare Workers
 
-کد ورکر را از فایل Wroker.js بردارید
+کد ورکر را از فایل Wrokers.js بردارید
 
 اموزش در لینک زیر
 
