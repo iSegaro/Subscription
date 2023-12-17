@@ -16,7 +16,7 @@ async function handleRequest(request) {
         ];
       }
   
-    const responseText = links.join('\n').replace(/,/g, '\n');
+    const responseText = links.join('\n').replace(/,(?=\n|$)/g, '');
   
     // Encoding the response text in base64
     const encodedResponse = btoa(responseText);
